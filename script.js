@@ -12,8 +12,8 @@ function updateScore() {
 // Function to handle button click event
 function handleClick() {
     updateScore();
-    animateButton(); // Add animation effect
-    playSound(); // Play click sound
+    animateButton();
+    playSound();
 }
 
 // Function to add animation effect
@@ -26,7 +26,7 @@ function animateButton() {
 
 // Function to play click sound
 function playSound() {
-    const audio = new Audio('click_sound.mp3'); // Path to your sound file
+    const audio = new Audio('sound/click_sound.mp3');
     audio.play();
 }
 
